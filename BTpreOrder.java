@@ -1,7 +1,7 @@
 // Java code to implement the approach
 
 // Class describing a node of tree
-class Node {
+class  Node {
 
 int data;
 Node left;
