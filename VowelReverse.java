@@ -22,7 +22,6 @@ class VowelReverse {
                 right--;
             }
         }
-
         return new String(chars);
     }
     public static void main(String[] args) {
