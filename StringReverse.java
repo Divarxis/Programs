@@ -16,13 +16,11 @@ class StringReverse {
                 end = i + 1;
             }
         }
-
         // Append the first word (if any)
         reversed.append(s.substring(0, end));
 
         return reversed.toString().trim(); // Trim trailing spaces
     }
-
     public static void main(String[] args) {
         StringReverse solution = new StringReverse();
 
