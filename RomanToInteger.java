@@ -34,7 +34,7 @@ public class RomanToInteger {
     // Main class begins here
     public static void main(String[] args) {
         // Test cases
-        String[] testCases = {"IV", "LVIII", "MCMXCIV"};
+        String[] testCases = {"IV", "LVIII", "MMMDCCCXXIV"};
         for (String testCase : testCases) {
             System.out.println("Roman numeral: " + testCase + ", Integer value: " + romanToInt(testCase));
         }
