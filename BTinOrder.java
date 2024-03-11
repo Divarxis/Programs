@@ -1,11 +1,11 @@
 // Java code to implement the approach
 // Class describing a node of tree
-class Node {
+class Nodes {
 
 	int data;
 	Node left;
 	Node right;
-	Node(int v)
+	Nodes(int v)
 	{
 		this.data = v;
 		this.left = this.right = null;
